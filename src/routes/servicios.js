@@ -18,4 +18,8 @@ router.route('/getEstudiante')
 router.route('/getEstudiantes')
     .get(getEstudiantes);
 
+router.route('/')
+    .get((req,res) =>{
+        res.send("<h1>Hola desde app engine</h1>")
+    });
 module.exports = router;
