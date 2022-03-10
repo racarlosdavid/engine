@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 require('dotenv').config()
 
-const URI = `mongodb://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@${process.env.MONGO_HOST}:27017/SApractica3?authSource=admin&readPreference=primary&appname=MongoDB%20Compass&ssl=false`;
+const URI = ``;
 
 mongoose.connect(URI, {
     useNewUrlParser: true,
